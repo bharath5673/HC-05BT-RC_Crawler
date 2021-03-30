@@ -1,9 +1,9 @@
 # HC-05BT-RC_Crawler
 
-#Description: Remote allows player to control motion of toy car. My modules are of 2 types, one with the speed control and another on without using HC-05 Bluetooth module..
-for RC cars, traxxas typos, Crawles, jeeps, and all steering typo RC cars.
+### Description: Remote allows player to control motion of toy car. My modules are of 2 types, one with the speed control and another on without using HC-05 Bluetooth module..
+### for RC cars, traxxas typos, Crawles, jeeps, and all steering typo RC cars.
 
-Components:
+**Components:**
 
     arduino nano for RX
     android mobile for TX
@@ -15,10 +15,10 @@ Components:
     leds for indicator if required.
     resisotors for leds if.
     
- Download and install this [app:]( https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller&hl=en_IN&gl=US) from playstore on ur Android phone
+### Download and install this [app:]( https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller&hl=en_IN&gl=US) from playstore on ur Android phone
  ![Alt text](pics/6.png)
  
- #TX and RX pcb board for without speed control module
+### TX and RX pcb board for without speed control module
  ![Alt text](pics/4.jpg)
  
 
@@ -46,7 +46,7 @@ connections to rx nano (crawler)
  
 
  
- #TX and RX pcb board for with speed control module
+### TX and RX pcb board for with speed control module
  ![Alt text](pics/4.jpg)  
  
 ```
@@ -75,6 +75,6 @@ connections to rx nano (crawler)
  _as shown bwlow
  ![Alt text](pics/2.jpg)  
  
- demo
+ _demo
  ![Alt text](pics/5.jpg)  
   
