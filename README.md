@@ -17,6 +17,7 @@ Components:
     
  Download and install this [app:]( https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller&hl=en_IN&gl=US) from playstore on ur Android phone
 
+ ![app](https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller&hl=en_IN&gl=US)
  
  #TX and RX pcb board for without speed control module
  ![Alt text](pics/4.jpg)
