@@ -41,7 +41,7 @@ connections to rx nano (crawler)
  IN4    >  6th pis of arduino nano 
  
 ```
- _as shown below
+### as shown below
  ![Alt text](pics/1.jpg)  
  
 
@@ -72,9 +72,9 @@ connections to rx nano (crawler)
 ```
  
  
- _as shown bwlow
+ ### as shown bwlow
  ![Alt text](pics/2.jpg)  
  
- _demo
+ ### demo
  ![Alt text](pics/5.jpg)  
   
