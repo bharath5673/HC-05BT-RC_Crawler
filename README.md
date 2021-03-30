@@ -14,7 +14,9 @@
     some batteries
     leds for indicator if required.
     resisotors for leds if.
-    
+
+
+
 ### Download and install this [app:]( https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller&hl=en_IN&gl=US) from playstore on ur Android phone
  ![Alt text](pics/6.png)
  
@@ -40,14 +42,18 @@ connections to rx nano (crawler)
  IN3    >  5
  IN4    >  6th pis of arduino nano 
  
-```
-### as shown below
+``` 
+### as shown below 
+
  ![Alt text](pics/1.jpg)  
  
 
+
+
  
 ### TX and RX pcb board for with speed control module
- ![Alt text](pics/4.jpg)  
+
+![Alt text](pics/4.jpg)  
  
 ```
 connections to rx nano (crawler)
@@ -71,10 +77,11 @@ connections to rx nano (crawler)
  ENB    >  6th pis of arduino nano
 ```
  
- 
  ### as shown bwlow
- ![Alt text](pics/2.jpg)  
+
+![Alt text](pics/2.jpg)  
  
  ### demo
- ![Alt text](pics/5.jpg)  
+
+![Alt text](pics/5.jpg)  
   
