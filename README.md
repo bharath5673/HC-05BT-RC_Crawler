@@ -1,7 +1,5 @@
 # HC-05BT-RC_Crawler
 
-# NRF24-RC-Crawler
-
 #Description: Remote allows player to control motion of toy car. My modules are of 2 types, one with the speed control and another on without using HC-05 Bluetooth module..
 for RC cars, traxxas typos, Crawles, jeeps, and all steering typo RC cars.
 
@@ -17,6 +15,8 @@ Components:
     leds for indicator if required.
     resisotors for leds if.
     
+ Download and install this [app:]( https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller&hl=en_IN&gl=US) from playstore on ur Android phone
+
  
  #TX and RX pcb board for without speed control module
  ![Alt text](pics/4.jpg)
