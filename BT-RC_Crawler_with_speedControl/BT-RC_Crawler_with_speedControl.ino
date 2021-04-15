@@ -1,8 +1,8 @@
 
-const int motor1Pin1 = 3;
-const int motor1Pin2 = 4;
-const int motor1PinSpeed = 5
-const int motor2PinSpeed = 6
+const int motor1Pin2 = 3;
+const int motor1Pin1 = 4;
+const int motor1PinSpeed = 5;
+const int motor2PinSpeed = 6;
 const int motor2Pin1 = 7;
 const int motor2Pin2 = 8;
 
@@ -23,6 +23,8 @@ void setup() {
   Serial.println("CAR READY");
   pinMode(motor1Pin1, OUTPUT);
   pinMode(motor1Pin2, OUTPUT);
+  pinMode(motor1PinSpeed, OUTPUT);
+  pinMode(motor2PinSpeed, OUTPUT); 
   pinMode(motor2Pin1, OUTPUT);
   pinMode(motor2Pin2, OUTPUT);
   
@@ -113,30 +115,25 @@ void loop() {
     // forward
     case 'F':
       digitalWrite(motor1Pin1, HIGH);
-      digitalWrite(motor1PinSpeed, Speed);
-
+      analogWrite(motor1PinSpeed, Speed);
       break;
 
     // left
     case 'L':
       digitalWrite(motor2Pin1, HIGH);
-      digitalWrite(motor2PinSpeed, Speed);
-
+      analogWrite(motor2PinSpeed, 170);
       break;
 
     // right
     case 'R':
       digitalWrite(motor2Pin2, HIGH);
-      digitalWrite(motor2PinSpeed, Speed);
-
+      analogWrite(motor2PinSpeed, 170);
       break;
 
     // backward
     case 'B':
       digitalWrite(motor1Pin2, HIGH);
-      digitalWrite(motor1PinSpeed, Speed); 
-
-
+      analogWrite(motor1PinSpeed, Speed);
       break;
 
 
@@ -145,40 +142,40 @@ void loop() {
 
     // forward left
     case 'G':
-      digitalWrite(motor1PinSpeed, Speed);
+      analogWrite(motor1PinSpeed, Speed);
       digitalWrite(motor1Pin1, HIGH);
       break;
       digitalWrite(motor2Pin1, HIGH);
-      digitalWrite(motor2PinSpeed, Speed);            
+      analogWrite(motor2PinSpeed, 170);            
       break;
 
 
     // forward right
     case 'I':
-      digitalWrite(motor1PinSpeed, Speed);
+      analogWrite(motor1PinSpeed, Speed);
       digitalWrite(motor1Pin1, HIGH);
       break;
       digitalWrite(motor2Pin2, HIGH);
-      digitalWrite(motor2PinSpeed, Speed);      
+      analogWrite(motor2PinSpeed, 170);      
       break;
 
 
     // backward left
     case 'H':
-      digitalWrite(motor1PinSpeed, Speed);
+      analogWrite(motor1PinSpeed, Speed);
       digitalWrite(motor1Pin2, HIGH);
       break;
       digitalWrite(motor2Pin1, HIGH);
-      digitalWrite(motor2PinSpeed, Speed);      
+      analogWrite(motor2PinSpeed, 170);      
       break;
 
     // backward right
     case 'J':
-      digitalWrite(motor1PinSpeed, Speed);
+      analogWrite(motor1PinSpeed, Speed);
       digitalWrite(motor1Pin2, HIGH);
       break;
       digitalWrite(motor2Pin2, HIGH);
-      digitalWrite(motor2PinSpeed, Speed);            
+      analogWrite(motor2PinSpeed, 170);            
       break;
 
 
